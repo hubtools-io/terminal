@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bony2023/react-terminal.git"
+    "url": "git+https://github.com/hubtools-io/terminal.git"
   },
   "keywords": [
     "node",
@@ -29,9 +29,9 @@
   "author": "Bony Roopchandani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bony2023/react-terminal/issues"
+    "url": "https://github.com/hubtools-io/terminal/issues"
   },
-  "homepage": "https://github.com/bony2023/react-terminal#readme",
+  "homepage": "https://github.com/hubtools-io/terminal#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
