@@ -10,10 +10,17 @@
     "test": "jest"
   },
   "files": [
-    "src",
+    "dist/*",
+    "src/*",
     "LICENCE",
     "package.json",
-    "README.md"
+    "README.md",
+    "*.d.ts",
+    "*.css",
+    "*.mjs",
+    "*.js",
+    "*.json",
+    "*.yml"
   ],
   "repository": {
     "type": "git",
