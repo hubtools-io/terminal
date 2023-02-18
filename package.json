@@ -1,26 +1,20 @@
 {
   "name": "react-terminal",
-  "version": "v1.4.0",
+  "version": "v1.4.1",
   "description": "React component that renders a terminal",
-  "main": "./src/index.tsx",
-  "types": "./src/global.d.tsx",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "./node_modules/.bin/cross-env NODE_ENV=production rollup -c",
     "watch": "rollup -cw",
     "test": "jest"
   },
   "files": [
-    "dist/*",
-    "src/*",
+    "dist",
     "LICENCE",
     "package.json",
-    "README.md",
-    "*.d.ts",
-    "*.css",
-    "*.mjs",
-    "*.js",
-    "*.json",
-    "*.yml"
+    "README.md"
   ],
   "repository": {
     "type": "git",
@@ -68,14 +62,9 @@
     "npm-install-peers": "^1.2.1",
     "postcss": "^8.4.21",
     "react-test-renderer": "^18.2.0",
-    "rollup": "^3.13.0",
-    "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.34.1",
     "sass": "^1.58.0",
     "ts-jest": "^29.0.5",
-    "ts-loader": "^9.4.2",
-    "typescript": "^4.9.5"
+    "ts-loader": "^9.4.2"
   },
   "resolutions": {
     "cheerio": "1.0.0-rc.10"
@@ -109,6 +98,11 @@
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react-device-detect": "2.1.2"
+    "react-device-detect": "2.1.2",
+    "rollup": "^3.13.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5"
   }
 }
