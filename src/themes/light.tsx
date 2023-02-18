@@ -3,4 +3,4 @@ export default {
     themeToolbarColor: "#d8d8d8",
     themeColor: "#333333",
     themePromptColor: "#a917a8"
-}
+};

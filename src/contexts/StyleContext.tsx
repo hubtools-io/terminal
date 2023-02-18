@@ -4,7 +4,7 @@ import * as style from "../index.scss";
 export const styles = style.default;
 export const StyleContext = React.createContext(null);
 
-export const StyleContextProvider = (props: any) => {
+export function StyleContextProvider(props: any) {
   const { children } = props;
 
   return (
@@ -12,7 +12,7 @@ export const StyleContextProvider = (props: any) => {
       {children}
     </StyleContext.Provider>
   );
-};
+}
 
 export default {
   StyleContext,

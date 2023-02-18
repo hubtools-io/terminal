@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import * as React from "react";
 import { isMobile } from "react-device-detect";
 
@@ -112,9 +113,7 @@ export const useBufferedContent = (
   errorMessage: any,
   defaultHandler: any
 ) => {
-  const { bufferedContent, setBufferedContent, setTemporaryContent } = React.useContext(TerminalContext);
-  const style = React.useContext(StyleContext);
-  const themeStyles = React.useContext(ThemeContext);
+  const { setBufferedContent, setTemporaryContent } = React.useContext(TerminalContext);
 
   React.useEffect(
     () => {
