@@ -2,9 +2,9 @@
   "name": "react-terminal",
   "version": "v1.4.0",
   "description": "React component that renders a terminal",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "./src/index.tsx",
+  "module": "./src/index.tsx",
+  "types": "./src/global.d.tsx",
   "scripts": {
     "build": "./node_modules/.bin/cross-env NODE_ENV=production rollup -c",
     "watch": "rollup -cw",
