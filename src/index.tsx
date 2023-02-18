@@ -7,7 +7,7 @@ import {
   TerminalContext as _TerminalContext
 } from "./contexts/TerminalContext";
 
-export function ReactTerminal(props: any): any {
+export function ReactTerminal(props: any) {
   return (
     <ContextProvider.default>
       <Terminal.default {...props} />
