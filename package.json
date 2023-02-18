@@ -3,7 +3,6 @@
   "version": "v1.4.0",
   "description": "React component that renders a terminal",
   "main": "./src/index.tsx",
-  "module": "./src/index.tsx",
   "types": "./src/global.d.tsx",
   "scripts": {
     "build": "./node_modules/.bin/cross-env NODE_ENV=production rollup -c",
