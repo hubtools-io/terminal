@@ -1,7 +1,11 @@
+/* eslint-disable react/jsx-pascal-case */
 import * as React from "react";
 import * as Terminal from "./components/Terminal";
 import * as ContextProvider from "./contexts";
-import { TerminalContextProvider as _TerminalContextProvider } from "./contexts/TerminalContext";
+import {
+  TerminalContextProvider as _TerminalContextProvider,
+  TerminalContext as _TerminalContext
+} from "./contexts/TerminalContext";
 
 export function ReactTerminal(props: any): any {
   return (
@@ -12,8 +16,10 @@ export function ReactTerminal(props: any): any {
 }
 
 export const TerminalContextProvider = _TerminalContextProvider;
+export const TerminalContext = _TerminalContext;
 
 export default {
   ReactTerminal,
-  TerminalContextProvider
+  TerminalContextProvider,
+  TerminalContext
 };
